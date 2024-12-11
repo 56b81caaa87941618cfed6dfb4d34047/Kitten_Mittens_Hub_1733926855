@@ -6,5 +6,56 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "a5c2cf0b-ecd7-4e71-b1bc-935312cbed39",
+        "timestamp": "2024-12-11T17:30:21.127830Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Please add this image into the component on the right side ./src/assets/images/cat-jumping.jpeg",
+        "metadata": {
+            "component_id": "Hero1733926858"
+        }
+    },
+    {
+        "id": "76ef83a6-9c53-43af-a974-ecc25d7c118a",
+        "timestamp": "2024-12-11T17:30:23.461295Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_0UHpG22hsvSJcS8QJwo4JGUA",
+            "function": {
+                "arguments": "{\"component_id\":\"Hero1733926858\",\"image_input\":\"cat-jumping.jpeg\",\"placement_instructions\":\"Place the image on the right side of the component\",\"acknowledgement_message\":\"Okay, I'm adding the cat-jumping image to the right side of the component...\"}",
+                "name": "GenerateImageAndPlaceInComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "f5a6801e-cae9-4b5b-ad97-8fcba3d03037",
+        "timestamp": "2024-12-11T17:30:23.521236Z",
+        "role": "assistant",
+        "source": "tool:GenerateImageAndPlaceInComponent",
+        "content": "Okay, I'm adding the cat-jumping image to the right side of the component...",
+        "metadata": {}
+    },
+    {
+        "id": "62b3c7d0-ac05-4f70-9f78-a61553f512bb",
+        "timestamp": "2024-12-11T17:30:39.056056Z",
+        "role": "tool_result",
+        "source": "GenerateImageAndPlaceInComponent",
+        "content": "Success",
+        "metadata": {
+            "tool_call_id": "call_0UHpG22hsvSJcS8QJwo4JGUA"
+        }
+    },
+    {
+        "id": "b7cb4691-ad4e-4047-8ffa-d3250bab555a",
+        "timestamp": "2024-12-11T17:30:39.949039Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The image has been added to the right side of the component. What would you like to do next?",
+        "metadata": {}
     }
 ]
