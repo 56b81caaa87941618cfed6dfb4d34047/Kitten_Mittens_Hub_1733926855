@@ -49,5 +49,13 @@
         "metadata": {
             "tool_call_id": "call_0UHpG22hsvSJcS8QJwo4JGUA"
         }
+    },
+    {
+        "id": "b7cb4691-ad4e-4047-8ffa-d3250bab555a",
+        "timestamp": "2024-12-11T17:30:39.949039Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The image has been added to the right side of the component. What would you like to do next?",
+        "metadata": {}
     }
 ]
