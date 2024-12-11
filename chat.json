@@ -100,5 +100,13 @@
         "metadata": {
             "tool_call_id": "call_JzveSAdzsPe6x5jGpnw3q9Oe"
         }
+    },
+    {
+        "id": "a3d7e636-349a-48fc-9e5c-e1026f31a22d",
+        "timestamp": "2024-12-11T19:28:13.777336Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The existing image in the Hero component has been replaced with the new image. Anything else you would like to do?",
+        "metadata": {}
     }
 ]
