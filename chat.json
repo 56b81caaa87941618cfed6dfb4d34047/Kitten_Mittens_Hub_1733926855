@@ -6,5 +6,15 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "a5c2cf0b-ecd7-4e71-b1bc-935312cbed39",
+        "timestamp": "2024-12-11T17:30:21.127830Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Please add this image into the component on the right side ./src/assets/images/cat-jumping.jpeg",
+        "metadata": {
+            "component_id": "Hero1733926858"
+        }
     }
 ]
