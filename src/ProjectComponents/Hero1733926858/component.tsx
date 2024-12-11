@@ -13,6 +13,7 @@ const Hero: React.FC = () => {
           <img src={`https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Kitten_Mittens_Hub_1733926855/${window.MI_PROJECT_GIT_REF || 'main'}/src/assets/images/cat-jumping.jpeg`} alt="Kitten Mittens" className="w-full h-auto rounded-lg shadow-md" />
         </div>
     </div>
+    </div>
   );
 };
 
