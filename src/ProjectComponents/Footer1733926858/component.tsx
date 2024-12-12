@@ -1,5 +1,7 @@
 import React from 'react';
 
+abc()
+
 const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-800 text-white p-8 w-full h-full"> {/* Full width and height */}
