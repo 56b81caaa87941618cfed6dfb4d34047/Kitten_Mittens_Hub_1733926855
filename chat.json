@@ -159,5 +159,15 @@
         "source": "base_assistant",
         "content": "The background of the header has been changed to red. Is there anything else you would like to do?",
         "metadata": {}
+    },
+    {
+        "id": "5a440ffc-a1b0-4ce9-b646-5f9918774600",
+        "timestamp": "2024-12-12T14:51:26.739585Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Please change the header background to blue",
+        "metadata": {
+            "component_id": "Header1733926858"
+        }
     }
 ]
