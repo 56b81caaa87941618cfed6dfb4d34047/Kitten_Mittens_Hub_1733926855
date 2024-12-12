@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
           <p className="text-xl mb-6">Keep your feline friend's paws cozy and your furniture scratch-free with our stylish and comfortable kitten mittens.</p>
         </div>
         <div className="md:w-1/2">
-          <img src={`https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Kitten_Mittens_Hub_1733926855/${window.MI_PROJECT_GIT_REF || 'main'}/src/assets/images/two-different-breeds-of-cats-side-by-side-outdoors-in-the-garden.jpeg`} alt="Kitten Mittens" className="w-full h-auto rounded-lg shadow-md" />
+          <img src={`https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Kitten_Mittens_Hub_1733926855/${window.MI_PROJECT_GIT_REF || 'main'}/src/assets/images/FELV-cat.jpeg`} alt="Kitten Mittens" className="w-full h-auto rounded-lg shadow-md" />
         </div>
     </div>
     </div>
