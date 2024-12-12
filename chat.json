@@ -210,5 +210,15 @@
         "source": "base_assistant",
         "content": "The background of the header has been changed to blue. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "aab83d58-d0e3-4c3d-ac24-0508f816e0f7",
+        "timestamp": "2024-12-12T15:09:29.817093Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Please change the image in the hero to this: ./src/assets/images/FELV-cat.jpeg",
+        "metadata": {
+            "component_id": "Hero1733926858"
+        }
     }
 ]
