@@ -1,6 +1,5 @@
 import React from 'react';
 
-abc()
 
 const Footer: React.FC = () => {
   return (
