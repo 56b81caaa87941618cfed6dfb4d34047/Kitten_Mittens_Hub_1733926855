@@ -108,5 +108,15 @@
         "source": "base_assistant",
         "content": "The existing image in the Hero component has been replaced with the new image. Anything else you would like to do?",
         "metadata": {}
+    },
+    {
+        "id": "47c17e85-ec58-4789-86f7-a951c41f6156",
+        "timestamp": "2024-12-12T14:09:31.586432Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Please change the background of the header to red",
+        "metadata": {
+            "component_id": "Header1733926858"
+        }
     }
 ]
